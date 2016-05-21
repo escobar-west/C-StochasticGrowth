@@ -1,4 +1,4 @@
-fileID = fopen('~/Documents/C++/CFDstochasticGrowth/ODEsolution.txt', 'r');
+fileID = fopen('ODEsolution.txt', 'r');
 formatSpec = '%f';
 A = fscanf(fileID, formatSpec);
 
